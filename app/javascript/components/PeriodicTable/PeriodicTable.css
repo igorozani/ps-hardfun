@@ -1,0 +1,13 @@
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 64px);
+    grid-template-rows: repeat(10, 64px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.single-element:hover {
+    cursor: pointer;
+}

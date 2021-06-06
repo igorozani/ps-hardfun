@@ -1,0 +1,12 @@
+button {
+    border: 2px solid deepskyblue !important; 
+    border-radius: 5px;
+    background-color: transparent;
+    color: deepskyblue !important;
+    margin: 2rem auto 2rem auto
+}
+
+button:hover{
+    background-color: deepskyblue;
+    color:black !important;
+}
